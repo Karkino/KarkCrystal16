@@ -101,6 +101,7 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw SwabluEggMoves
 
 ChikoritaEggMoves:
 	dw VINE_WHIP
@@ -465,5 +466,12 @@ LarvitarEggMoves:
 	dw OUTRAGE
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
+	dw -1; end
+	
+SwabluEggMoves: 
+    dw HAZE 
+	dw RAGE 
+	dw PURSUIT 
+	dw BODY_SLAM 
 NoEggMoves2:
 	dw -1 ; end

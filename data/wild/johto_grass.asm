@@ -1201,13 +1201,13 @@ JohtoGrassWildMons:
 	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
-	dbw 2, PIDGEY
-	dbw 2, SENTRET
-	dbw 3, PIDGEY
-	dbw 3, SENTRET
-	dbw 2, RATTATA
-	dbw 3, HOPPIP
-	dbw 3, HOPPIP
+	dbw 2, SWABLU
+	dbw 2, SWABLU 
+	dbw 3, SWABLU 
+	dbw 3, SWABLU 
+	dbw 2, SWABLU 
+	dbw 3, SWABLU 
+	dbw 3, SWABLU 
 	; nite
 	dbw 2, HOOTHOOT
 	dbw 2, RATTATA
