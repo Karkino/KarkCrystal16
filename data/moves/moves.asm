@@ -17,7 +17,7 @@ Moves::
 	indirect_table_end
 
 Moves1:
-	move EFFECT_NORMAL_HIT,         40, NORMAL,   100, 35,   0 ;POUND
+	move EFFECT_NORMAL_HIT,         40, FAIRY,    100, 35,   0 ;POUND
 	move EFFECT_NORMAL_HIT,         50, FIGHTING, 100, 25,   0 ;KARATE_CHOP
 	move EFFECT_MULTI_HIT,          15, NORMAL,    85, 10,   0 ;DOUBLESLAP
 	move EFFECT_MULTI_HIT,          18, NORMAL,    85, 15,   0 ;COMET_PUNCH
