@@ -1,5 +1,5 @@
 	db "COTTONBIRD@" ; species name
-	dw 104, 17 ; height, weight
+	dw 104, 26 ; height, weight
 
 	db   "Its wings bring"
 	next "cottony clouds to"
