@@ -257,3 +257,4 @@ PokemonCries::
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
 	mon_cry CRY_CLEFAIRY,    $0aa,  $0b0 ; SWABLU
+	mon_cry CRY_CATERPIE,    $056,  $140 ; CATERPIE

@@ -102,6 +102,7 @@ EvosAttacksPointers2::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw SwabluEvosAttacks
+	dw AltariaEvosAttacks
 
 ChikoritaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, BAYLEEF
@@ -1405,6 +1406,7 @@ CelebiEvosAttacks:
 	db 0 ; no more level-up moves
 	
 SwabluEvosAttacks:
+    dbbw EVOLVE_LEVEL, 6, ALTARIA
 	db 0 ; no more evolutions
 	dbw 1, POUND
 	dbw 1, PECK 
@@ -1422,3 +1424,17 @@ SwabluEvosAttacks:
 	dbw 49, SKY_ATTACK
 	dbw 52, OUTRAGE 
 	db 0 ; no more level-up moves
+
+AltariaEvosAttacks:
+    db 0 ; no more evolutions
+	dbw 1, FURY_ATTACK 
+	dbw 1, COTTON_SPORE 
+	dbw 1, SAFEGUARD 
+	dbw 1, DRAGONBREATH
+	dbw 41, MIRROR_MOVE 
+	dbw 44, AGILITY 
+	dbw 49, PERISH_SONG
+	dbw 53, SKY_ATTACK
+	dbw 58, OUTRAGE 
+	db 0 ; no more level-up moves
+	

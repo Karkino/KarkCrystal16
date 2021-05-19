@@ -252,3 +252,4 @@ PokedexDataPointerTable:
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
 	dba SwabluPokedexEntry 
+	dba AltariaPokedexEntry 

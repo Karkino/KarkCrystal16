@@ -253,3 +253,4 @@ NewPokedexOrder:
 	dw MEW
 	dw CELEBI
 	dw SWABLU
+	db ALTARIA 

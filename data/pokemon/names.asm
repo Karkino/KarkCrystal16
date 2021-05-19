@@ -255,3 +255,4 @@ PokemonNames::
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
 	db "SWABLU@@@@"
+	db "ALTARIA@@@"

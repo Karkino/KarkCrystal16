@@ -716,3 +716,5 @@ SECTION "Pics 19", ROMX
 
 SwabluFrontpic:      INCBIN "gfx/pokemon/swablu/front.animated.2bpp.lz"
 SwabluBackpic:       INCBIN "gfx/pokemon/swablu/back.2bpp.lz"
+AltariaFrontpic:     INCBIN "gfx/pokemon/altaria/front.animated.2bpp.lz"
+AltariaBackpic:      INCBIN "gfx/pokemon/altaria/back.2bpp.lz"

@@ -517,3 +517,5 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba SwabluFrontpic
 	dba SwabluBackpic
+	dba AltariaFrontpic
+	dba AltariaBackpic
