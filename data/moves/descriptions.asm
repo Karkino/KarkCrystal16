@@ -256,6 +256,37 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw StruggleBugDescription
+	dw FeatherdanceDescription
+	dw DisarmVoiceDescription
+	dw DrainingkissDescription
+	dw DazzleGleamDescription
+	dw MoonblastDescription
+	dw SignalBeamDescription
+	dw IronHeadDescription
+	dw GunkShotDescription
+	dw StoneEdgeDescription
+	dw BulletPunchDescription
+	dw AquaJetDescription
+	dw XScissorDescription
+	dw ArmThrustDescription
+	dw NuzzleDescription
+	dw NastyPlotDescription
+	dw DragonRushDescription
+	dw DarkPulseDescription
+	dw EnergyBallDescription
+	dw PoisonFangDescription
+	dw SilverWindDescription 
+	dw RockTombDescription
+	dw FocusBlastDescription
+	dw AirSlashDescription
+	dw HornLeechDescription
+	dw DualChopDescription
+	dw FlashCannonDescription
+	dw AstonishDescription
+	dw HurricaneDescription
+	dw CottonGuardDescription
+	dw IceBallDescription
 
 InvalidMoveDescription:
 	db "?@"
@@ -317,8 +348,8 @@ SwordsDanceDescription:
 	next "creases ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 GustDescription:
 	db   "Whips up a strong"
@@ -521,8 +552,8 @@ DrillPeckDescription:
 	next "ning-peck attack.@"
 
 SubmissionDescription:
-	db   "An attack that al-"
-	next "so hurts the user.@"
+	db   "Strong fighting-"
+	next "type attack.@"
 
 LowKickDescription:
 	db   "An attack that may"
@@ -765,8 +796,8 @@ FireBlastDescription:
 	next "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
-	next "attack.@"
+	db   "An attack that may"
+	next "cause flinching.@"
 
 ClampDescription:
 	db   "Traps the foe for"
@@ -785,7 +816,7 @@ SpikeCannonDescription:
 	next "hit 2-5 times.@"
 
 ConstrictDescription:
-	db   "An attack that may"
+	db   "An attack that'll"
 	next "lower SPEED.@"
 
 AmnesiaDescription:
@@ -1022,7 +1053,7 @@ OctazookaDescription:
 
 SpikesDescription:
 	db   "Hurts foes when"
-	next "they switch out.@"
+	next "they switch in.@"
 
 ZapCannonDescription:
 	db   "An attack that"
@@ -1153,8 +1184,8 @@ DynamicpunchDescription:
 	next "always confuses.@"
 
 MegahornDescription:
-	db   "A powerful charge"
-	next "attack.@"
+	db   "A powerful horn"
+	next "charge attack.@"
 
 DragonbreathDescription:
 	db   "A strong breath"
@@ -1263,3 +1294,127 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+StruggleBugDescription:
+    db   "Will always lower"
+	next "foe's SPCL.ATK@"
+	
+FeatherdanceDescription:
+    db   "Sharply lowers the"
+	next "foe's ATTACK.@"
+
+DisarmVoiceDescription:
+    db   "An attack that"
+	next "never misses.@"
+
+DrainingkissDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
+
+DazzleGleamDescription:
+	db   "A strong fairy-"
+	next "type attack.@"
+	
+MoonblastDescription:
+	db   "An attack that may"
+	next "lower SPCL.ATK.@"
+
+SignalBeamDescription:
+    db   "An attack that may"
+	next "cause confusion.@"
+
+IronHeadDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+	
+GunkShotDescription:
+	db   "An attack that may"
+	next "poison the target.@"
+
+StoneEdgeDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
+
+BulletPunchDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+
+AquaJetDescription:
+	db   "Lets the user get"
+	next "in the first hit.@"
+	
+XScissorDescription:
+	db   "A strong bug-"
+	next "type attack.@"
+
+ArmThrustDescription:
+	db   "Repeatedly hits"
+	next "2-5 times.@"
+
+NuzzleDescription:
+	db   "An attack that'll"
+	next "cause paralysis.@"
+	
+NastyPlotDescription:
+	db   "A plot to increase"
+	next "user's SP.ATTACK.@"
+	
+DragonRushDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+	
+DarkPulseDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+	
+EnergyBallDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+	
+PoisonFangDescription:
+	db   "An attack that may"
+	next "poison the target.@"
+	
+SilverWindDescription:
+	db   "An attack that may"
+	next "raise all stats.@"
+	
+RockTombDescription:
+	db   "An attack that'll"
+	next "lower SPEED.@"
+	
+FocusBlastDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"
+	
+AirSlashDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+	
+HornLeechDescription:
+	db   "Steals 1/2 of the"
+	next "damage inflicted.@"
+	
+DualChopDescription:
+	db   "An attack that"
+	next "strikes twice.@"
+
+FlashCannonDescription:
+	db   "An attack that may"
+	next "lower SPCL.DEF.@"	
+
+AstonishDescription:
+	db   "An attack that may"
+	next "cause flinching.@"
+
+HurricaneDescription:
+	db   "An attack that may"
+	next "confuse the foe.@"
+
+CottonGuardDescription:
+	db   "Sharply raises the"
+	next "user's DEFENSE.@"
+	
+IceBallDescription:
+	db   "Attacks 5 turns"
+	next "with rising power.@"

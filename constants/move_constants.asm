@@ -257,6 +257,37 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
+	const STRUGGLE_BUG
+	const FEATHERDANCE
+	const DISARM_VOICE
+	const DRAININGKISS
+	const DAZZLE_GLEAM
+	const MOONBLAST
+	const SIGNAL_BEAM
+	const IRON_HEAD
+	const GUNK_SHOT
+	const STONE_EDGE
+	const BULLET_PUNCH
+	const AQUA_JET
+	const X_SCISSOR
+	const ARM_THRUST
+	const NUZZLE
+	const NASTY_PLOT
+	const DRAGON_RUSH
+	const DARK_PULSE
+	const ENERGY_BALL 
+	const POISON_FANG
+	const SILVER_WIND
+	const ROCK_TOMB
+	const FOCUS_BLAST
+	const AIR_SLASH
+	const HORN_LEECH
+	const DUAL_CHOP
+	const FLASHCANNON
+	const ASTONISH
+	const HURRICANE
+	const COTTON_GUARD
+	const ICE_BALL
 NUM_ATTACKS EQU const_value + -1
 
 	if NUM_ATTACKS > $3fff
