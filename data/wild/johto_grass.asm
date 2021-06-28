@@ -5,56 +5,56 @@ JohtoGrassWildMons:
 	map_id SPROUT_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
 	dbw 5, RATTATA
-	dbw 3, RATTATA
+	dbw 5, RATTATA
 	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, SPINARAK
+	dbw 5, SPINARAK
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
 	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
 	dbw 5, RATTATA
-	dbw 3, RATTATA
+	dbw 5, RATTATA
 	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, SPINARAK
+	dbw 5, SPINARAK
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
 	; nite
-	dbw 3, GASTLY
-	dbw 4, GASTLY
+	dbw 5, RATTATA
 	dbw 5, GASTLY
-	dbw 3, RATTATA
+	dbw 5, SPINARAK
 	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
+	dbw 7, SPINARAK
 
 	map_id SPROUT_TOWER_3F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
-	dbw 4, RATTATA
 	dbw 5, RATTATA
-	dbw 3, RATTATA
+	dbw 5, RATTATA
 	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, SPINARAK
+	dbw 5, SPINARAK
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
 	; day
-	dbw 3, RATTATA
-	dbw 4, RATTATA
 	dbw 5, RATTATA
-	dbw 3, RATTATA
+	dbw 5, RATTATA
 	dbw 6, RATTATA
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 5, SPINARAK
+	dbw 5, SPINARAK
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
 	; nite
-	dbw 3, GASTLY
-	dbw 4, GASTLY
+	dbw 5, RATTATA
 	dbw 5, GASTLY
-	dbw 3, RATTATA
+	dbw 5, SPINARAK
 	dbw 6, GASTLY
-	dbw 5, RATTATA
-	dbw 5, RATTATA
+	dbw 6, SPINARAK
+	dbw 7, SPINARAK
+	dbw 7, SPINARAK
 
 	map_id TIN_TOWER_2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1139,29 +1139,29 @@ JohtoGrassWildMons:
 	map_id DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, GEODUDE
-	dbw 2, ZUBAT
-	dbw 2, GEODUDE
-	dbw 4, GEODUDE
-	dbw 2, TEDDIURSA
-	dbw 4, ZUBAT
-	dbw 4, DUNSPARCE
+	dbw 5, ZUBAT
+	dbw 5, GEODUDE
+	dbw 6, TEDDIURSA
+	dbw 6, TEDDIURSA
+	dbw 7, TEDDIURSA
+	dbw 7, DUNSPARCE
+	dbw 7, DUNSPARCE
 	; day
-	dbw 3, GEODUDE
-	dbw 2, ZUBAT
-	dbw 2, GEODUDE
-	dbw 4, GEODUDE
-	dbw 2, ZUBAT
-	dbw 4, ZUBAT
-	dbw 4, DUNSPARCE
+	dbw 5, ZUBAT
+	dbw 5, GEODUDE
+	dbw 6, GEODUDE
+	dbw 6, TEDDIURSA
+	dbw 7, TEDDIURSA
+	dbw 7, DUNSPARCE
+	dbw 7, DUNSPARCE
 	; nite
-	dbw 3, GEODUDE
-	dbw 2, ZUBAT
-	dbw 2, GEODUDE
-	dbw 4, GEODUDE
-	dbw 2, ZUBAT
-	dbw 4, ZUBAT
-	dbw 4, DUNSPARCE
+	dbw 5, ZUBAT
+	dbw 5, GEODUDE
+	dbw 6, TEDDIURSA
+	dbw 6, DUNSPARCE
+	dbw 6, DUNSPARCE
+	dbw 6, ZUBAT
+	dbw 7, ZUBAT
 
 	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -1193,83 +1193,83 @@ JohtoGrassWildMons:
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, PIDGEY
-	dbw 2, SENTRET
-	dbw 3, PIDGEY
 	dbw 3, SENTRET
-	dbw 2, RATTATA
+	dbw 4, RATTATA
+	dbw 4, SENTRET
 	dbw 3, HOPPIP
-	dbw 3, HOPPIP
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
 	; day
-	dbw 2, DRATINI
-	dbw 2, DRATINI 
-	dbw 3, DRATINI
-	dbw 3, DRATINI
-	dbw 2, DRATINI
-	dbw 3, DRATINI
-	dbw 3, DRATINI 
+	dbw 3, SENTRET
+	dbw 4, SENTRET
+	dbw 3, HOPPIP
+	dbw 3, PICHU
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
 	; nite
-	dbw 2, HOOTHOOT
-	dbw 2, RATTATA
-	dbw 3, HOOTHOOT
 	dbw 3, RATTATA
-	dbw 2, RATTATA
 	dbw 3, HOOTHOOT
-	dbw 3, HOOTHOOT
+	dbw 4, RATTATA
+	dbw 3, PICHU
+	dbw 3, PICHU
+	dbw 4, HOOTHOOT
+	dbw 4, HOOTHOOT
 
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, LEDYBA
-	dbw 3, CATERPIE
+	dbw 3, IGGLYBUFF
 	dbw 4, CATERPIE
-	dbw 4, PIDGEY
+	dbw 4, LEDYBA
+	dbw 4, IGGLYBUFF
 	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
+	dbw 3, WEEDLE
+	dbw 3, WEEDLE
 	; day
-	dbw 3, PIDGEY
-	dbw 3, CATERPIE
+	dbw 3, SENTRET
 	dbw 4, CATERPIE
-	dbw 4, PIDGEY
+	dbw 4, SENTRET
+	dbw 4, CATERPIE
 	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
+	dbw 3, WEEDLE
+	dbw 3, WEEDLE
 	; nite
-	dbw 3, SPINARAK
+	dbw 3, IGGLYBUFF
 	dbw 3, HOOTHOOT
-	dbw 4, POLIWAG
-	dbw 4, HOOTHOOT
-	dbw 3, ZUBAT
-	dbw 4, HOOTHOOT
-	dbw 4, HOOTHOOT
+	dbw 3, POLIWAG
+	dbw 4, IGGLYBUFF
+	dbw 3, SPINARAK
+	dbw 3, SPINARAK
+	dbw 3, SPINARAK 
 
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, LEDYBA
-	dbw 4, CATERPIE
+	dbw 4, PIDGEY
+	dbw 5, CATERPIE
+	dbw 5, LEDYBA
 	dbw 5, BELLSPROUT
-	dbw 5, PIDGEY
 	dbw 4, WEEDLE
-	dbw 5, HOPPIP
-	dbw 5, HOPPIP
+	dbw 5, WEEDLE
+	dbw 7, KAKUNA
 	; day
 	dbw 4, PIDGEY
-	dbw 4, CATERPIE
 	dbw 5, BELLSPROUT
-	dbw 5, PIDGEY
+	dbw 5, MARILL
+	dbw 5, CATERPIE
 	dbw 4, WEEDLE
-	dbw 5, HOPPIP
-	dbw 5, HOPPIP
+	dbw 5, WEEDLE
+	dbw 7, KAKUNA
 	; nite
-	dbw 4, SPINARAK
-	dbw 4, POLIWAG
-	dbw 5, BELLSPROUT
-	dbw 5, HOOTHOOT
 	dbw 4, ZUBAT
+	dbw 4, POLIWAG
+	dbw 5, ZUBAT
 	dbw 5, GASTLY
-	dbw 5, GASTLY
+	dbw 4, SPINARAK
+	dbw 5, SPINARAK
+	dbw 7, SPINARAK
 
 	map_id ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1382,29 +1382,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_36
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 4, LEDYBA
-	dbw 4, PIDGEY
-	dbw 5, BELLSPROUT
 	dbw 5, GROWLITHE
-	dbw 5, PIDGEY
-	dbw 6, PIDGEY
-	dbw 6, PIDGEY
+	dbw 5, HOUNDOUR
+	dbw 5, PICHU
+	dbw 5, BELLSPROUT
+	dbw 6, BELLSPROUT 
+	dbw 6, PICHU
+	dbw 7, PICHU 
 	; day
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
-	dbw 5, BELLSPROUT
+	dbw 5, MAREEP
 	dbw 5, GROWLITHE
-	dbw 5, PIDGEY
-	dbw 6, PIDGEY
-	dbw 6, PIDGEY
-	; nite
-	dbw 4, SPINARAK
-	dbw 4, HOOTHOOT
 	dbw 5, BELLSPROUT
+	dbw 6, MAREEP
+	dbw 6, YANMA
+	dbw 6, YANMA 
+	dbw 7, YANMA
+	; nite
 	dbw 5, HOOTHOOT
-	dbw 5, HOOTHOOT
+	dbw 5, HOUNDOUR
+	dbw 5, PICHU
+	dbw 6, HOOTHOOT
 	dbw 5, GASTLY
-	dbw 5, GASTLY
+	dbw 6, GASTLY
+	dbw 7, GASTLY
 
 	map_id ROUTE_37
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1598,29 +1598,29 @@ JohtoGrassWildMons:
 	map_id ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, GEODUDE
-	dbw 2, SPEAROW
-	dbw 3, GEODUDE
-	dbw 3, RATTATA
-	dbw 2, PHANPY
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 4, SPEAROW
+	dbw 5, SPEAROW
+	dbw 4, PHANPY
+	dbw 4, PHANPY
+	dbw 5, PHANPY
+	dbw 5, PHANPY
+	dbw 5, PHANPY
 	; day
-	dbw 2, GEODUDE
-	dbw 2, SPEAROW
-	dbw 3, GEODUDE
-	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 4, SPEAROW
+	dbw 4, PHANPY
+	dbw 5, SPEAROW
+	dbw 4, ELEKID
+	dbw 4, ELEKID 
+	dbw 5, PHANPY
+	dbw 5, PHANPY
 	; nite
-	dbw 2, GEODUDE
-	dbw 2, RATTATA
-	dbw 3, GEODUDE
-	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
-	dbw 2, RATTATA
+	dbw 4, SANDSHREW
+	dbw 5, SANDSHREW
+	dbw 4, ELEKID
+	dbw 4, ELEKID
+	dbw 4, ELEKID 
+	dbw 4, ELEKID
+	dbw 4, ELEKID
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
