@@ -61,7 +61,6 @@ ROMX $0d
 	"Effect Commands"
 ROMX $0e
 	"Enemy Trainers"
-	"Enemy Trainer Parties 2"
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -73,7 +72,6 @@ ROMX $11
 ROMX $12
 	"Crystal Features 1"
 	"Egg Moves 2"
-	"Evolutions and Attacks 2"
 ROMX $13
 	"bank13"
 ROMX $14
@@ -290,6 +288,8 @@ ROMX $74
 	"Pokedex Entries 193-251"
 ROMX $75
 	"16-bit ID stuff"
+ROMX $76
+	"Move Animation Scripts"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"
