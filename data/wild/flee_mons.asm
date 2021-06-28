@@ -15,6 +15,8 @@ SometimesFleeMons:
 	dw UNOWN
 	dw SNUBBULL
 	dw HERACROSS
+	dw PHANPY
+	dw TEDDIURSA
 	dw -1
 
 OftenFleeMons:
@@ -24,8 +26,6 @@ OftenFleeMons:
 	dw MOLTRES
 	dw QUAGSIRE
 	dw DELIBIRD
-	dw PHANPY
-	dw TEDDIURSA
 	dw -1
 
 AlwaysFleeMons:
