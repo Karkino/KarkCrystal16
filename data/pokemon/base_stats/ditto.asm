@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  48,  48,  48,  48,  48,  48
+	db  98,  48,  48,  48,  48,  48
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
@@ -17,5 +17,5 @@
 	dn EGG_DITTO, EGG_DITTO ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm HYPER_BEAM
 	; end

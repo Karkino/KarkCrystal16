@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  45,  30,  35,  45,  20,  20
+	db  45,  25,  35,  45,  40,  40
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm STRUGGLE_BUG
 	; end

@@ -1,9 +1,9 @@
 	db 0 ; species ID placeholder
 
-	db  30,  30,  30,  30,  30,  30
+	db  35,  15,  35,  15,  55,  45
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
+	db GRASS, FIRE ; type
 	db 235 ; catch rate
 	db 52 ; base exp
 	db NO_ITEM, NO_ITEM ; items
@@ -17,5 +17,5 @@
 	dn EGG_PLANT, EGG_PLANT ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SWEET_SCENT, SNORE, PROTECT, GIGA_DRAIN, ENDURE, FRUSTRATION, SOLARBEAM, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SLUDGE_BOMB, REST, ATTRACT, CUT, FLASH
+	tmhm CURSE, TOXIC, SUNNY_DAY, SNORE, PROTECT, GIGA_DRAIN, SOLARBEAM, RETURN, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, REST, ATTRACT, FLASH
 	; end

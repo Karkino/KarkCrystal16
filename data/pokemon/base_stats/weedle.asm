@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  40,  35,  30,  50,  20,  20
+	db  35,  40,  40,  35,  25,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type
@@ -17,5 +17,5 @@
 	dn EGG_BUG, EGG_BUG ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm LEECH_LIFE
 	; end

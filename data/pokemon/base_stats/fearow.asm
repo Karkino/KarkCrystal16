@@ -1,9 +1,9 @@
 	db 0 ; species ID placeholder
 
-	db  65,  90,  65, 100,  61,  61
+	db  65,  90,  75, 115,  61,  61
 	;   hp  atk  def  spd  sat  sdf
 
-	db NORMAL, FLYING ; type
+	db FLYING, FLYING ; type
 	db 90 ; catch rate
 	db 162 ; base exp
 	db NO_ITEM, SHARP_BEAK ; items
@@ -17,5 +17,5 @@
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
 	; tm/hm learnset
-	tmhm CURSE, TOXIC, HIDDEN_POWER, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, ENDURE, FRUSTRATION, RETURN, MUD_SLAP, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, DETECT, REST, ATTRACT, THIEF, STEEL_WING, FLY
+	tmhm CURSE, TOXIC, SUNNY_DAY, SNORE, HYPER_BEAM, PROTECT, RETURN, FEATHERDANCE, DOUBLE_TEAM, SWAGGER, SLEEP_TALK, SWIFT, PURSUIT, REST, ATTRACT, THIEF, STEEL_WING, FLY
 	; end

@@ -1,6 +1,6 @@
 	db 0 ; species ID placeholder
 
-	db  48,  72,  48,  48,  72,  48
+	db  72,  72,  72,  72,  72,  72
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type
@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm CURSE, PSYCH_UP, DARK_PULSE, HYPER_BEAM, MOONBLAST, SWAGGER, SWIFT, REST, FLASH
 	; end
