@@ -3,6 +3,7 @@
 	const ROUTE30_YOUNGSTER2
 	const ROUTE30_YOUNGSTER3
 	const ROUTE30_BUG_CATCHER
+	const ROUTE30_LASS
 	const ROUTE30_YOUNGSTER4
 	const ROUTE30_MONSTER1
 	const ROUTE30_MONSTER2
@@ -204,6 +205,17 @@ TrainerBugCatcherDon:
 	waitbutton
 	closetext
 	end
+	
+TrainerLassMabel:
+	trainer LASS, MABEL, EVENT_BEAT_LASS_MABEL, LassMabelSeenText, LassMabelBeatenText, 0, .Script
+
+.Script:
+	endifjustbattled
+	opentext
+	writetext LassMabelAfterText
+	waitbutton
+	closetext
+	end
 
 Route30YoungsterScript:
 	faceplayer
@@ -238,7 +250,7 @@ Route30TrainerTips:
 
 Route30Antidote:
 	itemball ANTIDOTE
-
+	
 Route30FruitTree1:
 	fruittree FRUITTREE_ROUTE_30_1
 
@@ -341,6 +353,26 @@ BugCatcherDonAfterText:
 	para "I should've bought"
 	line "some more…"
 	done
+	
+LassMabelSeenText:
+	text "Hey, you!"
+	line "It's time to"
+	cont "battle, now!"
+	done
+
+LassMabelBeatenText:
+	text "Darn, I wasn't"
+	line "prepared..."
+	done
+
+LassMabelAfterText:
+	text "Me and IGGLYBUFF"
+	line "should go and"
+	cont "train some more."
+
+	para "I can't let my"
+	line "#MON down!"
+	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
 	text "MR.#MON's"
@@ -409,26 +441,27 @@ Route30_MapEvents:
 
 	db 2 ; warp events
 	warp_event  7, 39, ROUTE_30_BERRY_HOUSE, 1
-	warp_event 17,  5, MR_POKEMONS_HOUSE, 1
+	warp_event 13,  5, MR_POKEMONS_HOUSE, 1
 
 	db 0 ; coord events
 
 	db 5 ; bg events
-	bg_event  9, 43, BGEVENT_READ, Route30Sign
-	bg_event 13, 29, BGEVENT_READ, MrPokemonsHouseDirectionsSign
-	bg_event 15,  5, BGEVENT_READ, MrPokemonsHouseSign
-	bg_event  3, 21, BGEVENT_READ, Route30TrainerTips
-	bg_event 14,  9, BGEVENT_ITEM, Route30HiddenPotion
+	bg_event 10, 40, BGEVENT_READ, Route30Sign
+	bg_event 12, 30, BGEVENT_READ, MrPokemonsHouseDirectionsSign
+	bg_event 11,  5, BGEVENT_READ, MrPokemonsHouseSign
+	bg_event  7, 27, BGEVENT_READ, Route30TrainerTips
+	bg_event 16, 27, BGEVENT_ITEM, Route30HiddenPotion
 
 	db 11 ; object events
 	object_event  5, 26, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, YoungsterJoey_ImportantBattleScript, EVENT_ROUTE_30_BATTLE
 	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, EVENT_ROUTE_30_YOUNGSTER_JOEY
 	object_event  5, 23, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 1, TrainerYoungsterMikey, -1
 	object_event  1,  7, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 3, TrainerBugCatcherDon, -1
+	object_event 15, 18, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 3, TrainerLassMabel, -1
 	object_event  7, 30, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Route30YoungsterScript, -1
 	object_event  5, 24, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  5, 25, SPRITE_MONSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_30_BATTLE
 	object_event  5, 39, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree1, -1
-	object_event 11,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
+	object_event 10,  5, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30FruitTree2, -1
 	object_event  2, 13, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route30CooltrainerFScript, -1
-	object_event  8, 35, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30Antidote, EVENT_ROUTE_30_ANTIDOTE
+	object_event 17, 22, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route30Antidote, EVENT_ROUTE_30_ANTIDOTE

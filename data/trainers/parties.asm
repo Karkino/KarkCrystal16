@@ -12,12 +12,12 @@ SECTION "Enemy Trainer Parties 1", ROMX
 FalknerGroup:
 	next_list_item ; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db 7
-	dw PIDGEY
-	dw TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db 9
+	db 8
+	dw NATU
+	dw TACKLE, GROWL, NO_MOVE, NO_MOVE
+	db 12
 	dw PIDGEOTTO
-	dw TACKLE, MUD_SLAP, GUST, NO_MOVE
+	dw PECK, TACKLE, FEATHERDANCE, NO_MOVE
 	db -1 ; end
 
 	end_list_items
@@ -639,10 +639,10 @@ YoungsterGroup:
 
 	next_list_item ; YOUNGSTER (2)
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db 2
-	dw PIDGEY
-	db 4
-	dw RATTATA
+	db 3
+	dw SENTRET
+	db 3
+	dw HOOTHOOT
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (3)
@@ -967,16 +967,16 @@ SchoolboyGroup:
 BirdKeeperGroup:
 	next_list_item ; BIRD_KEEPER (1)
 	db "ROD@", TRAINERTYPE_NORMAL
-	db 7
+	db 8
 	dw PIDGEY
-	db 7
-	dw PIDGEY
+	db 8
+	dw SPEAROW
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (2)
 	db "ABE@", TRAINERTYPE_NORMAL
 	db 9
-	dw SPEAROW
+	dw MURKROW 
 	db -1 ; end
 
 	next_list_item ; BIRD_KEEPER (3)
@@ -1274,6 +1274,12 @@ LassGroup:
 	db 36
 	dw GOLDUCK
 	dw DISABLE, SURF, PSYCHIC_M, SCREECH
+	db -1 ; end
+	
+	next_list_item ; LASS (18)
+	db "MABEL@", TRAINERTYPE_NORMAL
+	db 3
+	dw IGGLYBUFF
 	db -1 ; end
 
 	end_list_items
@@ -2294,9 +2300,9 @@ BugCatcherGroup:
 	next_list_item ; BUG_CATCHER (1)
 	db "DON@", TRAINERTYPE_NORMAL
 	db 3
-	dw CATERPIE
+	dw LEDYBA
 	db 3
-	dw CATERPIE
+	dw WEEDLE
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (2)
@@ -2319,13 +2325,9 @@ BugCatcherGroup:
 
 	next_list_item ; BUG_CATCHER (4)
 	db "WADE@", TRAINERTYPE_NORMAL
-	db 2
-	dw CATERPIE
-	db 2
-	dw CATERPIE
 	db 3
-	dw WEEDLE
-	db 2
+	dw SPINARAK
+	db 3
 	dw CATERPIE
 	db -1 ; end
 
@@ -3533,16 +3535,10 @@ HikerGroup:
 
 	next_list_item ; HIKER (11)
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 13
-	dw GEODUDE
-	db 13
-	dw GEODUDE
-	db 13
-	dw GEODUDE
-	db 13
-	dw GEODUDE
-	db 13
-	dw GEODUDE
+	db 2
+	dw TEDDIURSA
+	db 2
+	dw PHANPY
 	db -1 ; end
 
 	next_list_item ; HIKER (12)
@@ -4630,36 +4626,36 @@ ExecutiveFGroup:
 SageGroup:
 	next_list_item ; SAGE (1)
 	db "CHOW@", TRAINERTYPE_NORMAL
-	db 3
+	db 5
 	dw BELLSPROUT
-	db 3
-	dw BELLSPROUT
-	db 3
+	db 6
+	dw HOOTHOOT
+	db 5
 	dw BELLSPROUT
 	db -1 ; end
 
 	next_list_item ; SAGE (2)
 	db "NICO@", TRAINERTYPE_NORMAL
-	db 3
+	db 5
 	dw BELLSPROUT
-	db 3
+	db 5
 	dw BELLSPROUT
-	db 3
+	db 5
 	dw BELLSPROUT
 	db -1 ; end
 
 	next_list_item ; SAGE (3)
 	db "JIN@", TRAINERTYPE_NORMAL
-	db 6
-	dw BELLSPROUT
-	db -1 ; end
-
-	next_list_item ; SAGE (4)
-	db "TROY@", TRAINERTYPE_NORMAL
 	db 7
 	dw BELLSPROUT
 	db 7
 	dw HOOTHOOT
+	db -1 ; end
+
+	next_list_item ; SAGE (4)
+	db "TROY@", TRAINERTYPE_NORMAL
+	db 8
+	dw BELLSPROUT
 	db -1 ; end
 
 	next_list_item ; SAGE (5)
@@ -4684,28 +4680,24 @@ SageGroup:
 
 	next_list_item ; SAGE (7)
 	db "EDMOND@", TRAINERTYPE_NORMAL
-	db 3
+	db 5
 	dw BELLSPROUT
-	db 3
-	dw BELLSPROUT
-	db 3
-	dw BELLSPROUT
+	db 6
+	dw SQUIRTLE
 	db -1 ; end
 
 	next_list_item ; SAGE (8)
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db 6
-	dw BELLSPROUT
+	db 8
+	dw HOOTHOOT
 	db -1 ; end
 
 	next_list_item ; SAGE (9)
 	db "LI@", TRAINERTYPE_NORMAL
 	db 7
 	dw BELLSPROUT
-	db 7
-	dw BELLSPROUT
-	db 10
-	dw HOOTHOOT
+	db 9
+	dw NOCTOWL
 	db -1 ; end
 
 	next_list_item ; SAGE (10)
